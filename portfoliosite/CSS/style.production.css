@@ -66,15 +66,29 @@ html {
 .logo {
    padding-top:10px;
  
-  
 }
-.profile {
-    color: white;
-}
-ul {
-    display: flex;
-    list-style-type: none;
+
+
+.navigation-list ul {
+    list-style: none;
     text-decoration: none; 
+    padding:0;
+    margin: 0;
+    align-items: right;
+   
+
+}
+.navigation-list li {
+    display: inline-block;
+    margin-right: 100px;
+    
+}
+.navigation-list a {
+    width: 100px;
+    display: block;
+    padding: 20;
+    text-decoration: none;
+
 }
 
 .navigation-list__item:hover {
@@ -95,6 +109,9 @@ ul {
 #about,
 #contact {
     height: 500px
+}
+.profile {
+    color: white;
 }
 
 .intro {
@@ -123,9 +140,7 @@ svg path {
 }
 
 
-a:visited {
-    color: white;
-}
+
 
 .code_check:hover {
     color: #06ddf0;
@@ -134,6 +149,10 @@ a:visited {
 a:hover, a:focus {
     text-decoration: none;
     
+}
+
+a:visited {
+    color: white;
 }
 
 a:active {
