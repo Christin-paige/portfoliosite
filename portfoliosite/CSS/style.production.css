@@ -115,26 +115,23 @@ html {
 #about,
 #contact,
 #projects {
-   height: 500px;
-   width: 500px;
-   
+   height: 700px;
+   width: 700px;
    
 }
+
 
 .intro {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    width: 700px;
+    color: white;
     margin-top: 200px;
-    margin-left: 300px;
-   
-    
+    margin-left: 100px;
    
 }
-.profile {
-    color: white;
-    display: flex;
-    flex-direction: column;
+
+.portrait {
     width: 700px;
     
 }
@@ -168,7 +165,8 @@ ul {
     background-image: radial-gradient(circle, #f203ce, #06ddf0);
     color: transparent;
     background-clip: text;
-    -webkit-background-clip: text; 
+    -webkit-background-clip: text;
+    padding: 0px;
 }
 
 /*entire about me section*/
@@ -177,7 +175,7 @@ ul {
     color: white;
     height: 700px;
     Width: 450px;
-    padding-top: 50px;  
+    padding-top: 25px;  
     margin-left: 150px;
 }
 .list ul{
@@ -295,7 +293,9 @@ ul {
     border-color: #06ddf0;
     padding: 25px;
     margin-left: 175px;
-    margin-top: 150px;
+    margin-top: 200px;
+    padding-top: 70px;
+   
    
 }
 
@@ -326,9 +326,10 @@ a {
 }
 #projects {
     margin-left: 150px;
-    padding-top: 0px;
+    padding-top: 30px;
     width: 300px;
     height: 75px;
+   
 }
 
 /* start grid fallback */ 
