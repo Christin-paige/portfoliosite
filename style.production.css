@@ -401,7 +401,6 @@ img {
 /*media query section*/
 
 
-
 @media screen and (min-width: 480px) {
     .grid {
         -ms-grid-columns: 1fr 1fr;
