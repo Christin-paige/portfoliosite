@@ -84,17 +84,12 @@ a {
 
 
 .profile {
-    max-width: 500px;
+    max-width: 200px;
+    height: 200px;
     margin: 0 auto;
     background-image: url(http://www.w3.org/2000/svg);
 }
 
-.profile__portrait {
-    width: 250px;
-    float:left;
-    margin-right: 40px;
-    border-radius: 50%;
-}
 .flower {
     border-style: solid 5px black;
     
