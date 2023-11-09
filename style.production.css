@@ -329,52 +329,85 @@ a {
 }
 
 /* start grid fallback */ 
-.grid__item {
-    display: inline-block;
-    width: 33%
-   
-}
-@supports (display: grid) {
-.grid {
-    width: 600px;
+.grid-container {
     display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 300px 300px;
+    grid-template-columns:1fr 1fr 1fr;
     grid-gap: 20px;
-    margin-left: 20px;
-}
-.grid > *:nth-child(1) {
-        grid-row: 1;
-        grid-column: 1;
-}
-.grid > *:nth-child(2) {
-        grid-row: 1;
-        grid-column: 2;
-}
-.grid > *:nth-child(3) {
-        grid-row: 2;
-        grid-column: 1;
-}
 }
 
-.grid__item {
-    background-color: #B3B5BB;
-    padding: 20px;
-    width: auto;
-    min-height: auto;
-    margin: 0;
+
+.grid-item {
+    background-color: #adcbce;
+    padding: 10px;
+    width: 300px;
+   
+  
 }
+/*.pokedex {
+    width: 300px;
+}*/
+h2 {
+    color: white;
+    margin: 2rem 0 .5rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+img {
+    display: block;
+      border: 0;
+      width: 100%;
+      height: auto;
+  }
 
-.grid__item:last-child {
-    grid-column: 2;
-        grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row: 1;
-        grid-row-start: 1;
-    -ms-grid-row-span: 2;
-    grid-row-end: 2;
- }
-
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* see notes below */
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 1rem;
+  }
+  
+  .card {
+    /*height: 200px;*/
+    /*background: red;*/
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: .5rem;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    display: flex;
+    /* -webkit-box-orient: vertical; */
+    /* -webkit-box-direction: normal; */
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    color: #5d5e5e;
+  } /* li item */
+  
+  .thumbnail img {
+    fill: #c7c4c4;
+    height: 135px;
+    
+   
+  }
+  
+  .card-content {
+      font-size: .75rem;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+  }
+  footer {
+    border-top: 2px solid #e7e7e7;
+    margin: .5rem 0 0;
+    min-height: 30px;
+    font-size: 1rem;
+  }
 
 .page-footer {
     clear:both;
@@ -395,12 +428,10 @@ a {
     align-items: center;
 }
 
-img {
-    padding: 10px;
-}
+
 
 /*media query section*/
-
+/*
 
 @media screen and (min-width: 480px) {
     .grid {
@@ -435,3 +466,4 @@ img {
         margin-right: 20px;
     }
 }
+*/
