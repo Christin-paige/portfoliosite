@@ -28,7 +28,7 @@
         <li role="presentation"><a href= "#home" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a></li>
         <li role="presentation"><a href= "#about" role="menuitem" class="navigation-list__item1">About</a></li>
         <li role="presentation"><a href="#cards" role="menuitem" class="navigation-list__item3">Projects</a></li>
-        <li role="presentation"><a href= "#contact" role="menuitem" class="navigation-list__item2">Contact</a></li>
+        <li role="presentation"><a href= "#contact-section" role="menuitem" class="navigation-list__item2">Contact</a></li>
         
       </ul>
     </nav>
@@ -72,8 +72,8 @@
    </div>
  </section>
 
-<section id="about">
-  <h1>About</h1>
+
+ <section id="about">
 <div class="aboutme">
   <h1>About Me</h1>
       <p>Hello, I’m Christin, a full-stack web developer from the Washington D.C. area.<br> I am passionate about 
@@ -81,23 +81,37 @@
         also considering the data storage and security side. <br> Driven by my lifelong love of technology and problem-solving skills, 
         I am beyond excited to finally follow my passion and pursue a career in Web Development.
       </p>
+
    <div class="list">
+    <h2>Specialties include...</h2>
       <ul>
-          <li><span>Front-end development</span></li>
-          <li><span>Back-end development</span></li>
-          <li><span>Test driven development</span></li>
-          <li><span>Climbing</span></li>
+         <li><span>Front-End Web Development</span></li>
+          <li><span>HTML</span></li>
+          <li><span>CSS</span></li>
+          <li><span>JavaScript</span></li>
+          <li><span>React.js</span></li>
+          <li><span>BootStrap</span></li>
+          <li><span>JQuery</span></li><br>
+          <li><span>Back-End Web Development</span></li>
+          <li><span>JSON</span></li>
+          <li><span>Node</span></li>
+          <li><span>MongoDB</span></li>
+          <li><span>AWS</span></li>
+          <li><span>Serverless</span></li>
+          <li><span>Git</span></li>
       </ul>
    </div>
-      <button class="glow-on-hover" type="button">Download my Resume</button>
-      
-</div>
-</section>
+   </div>
+  </section>
 
 <section id="cards" class="cards">
-  
+
+  <div class="project-header">
+    <h1>Projects</h1>
+  </div>
+
+
   <article class="card">
-   
     <picture class="thumbnail">
       <img class="category__01" src="./pokedex.png" alt="screenshot of pokedex website"/>
     </picture>
@@ -117,23 +131,7 @@
     </footer>
   </article>
 
-<article class="card">
-  <picture class="thumbnail">
-    <img class="category__02" src="./codingpaigecom-high-resolution-logo-transparent.png" alt="screenshot"/>
-  </picture>
-  <div class="card-content">
-    <p class="category category__01">WordPress Blog</p>
-    <h2>CodingPaige</h2>
-    <p></p>
-  </div>
-  <footer>
-    <div class="links">
-      <span class="website"><i class="website"></i><a href="https://codingpaige.com/home/">Demo</a></span>
-      <span class="code"><i class="code"></i></span>
 
-      </div>
-  </footer>
-</article>
 
 
 <article class="card">
@@ -149,20 +147,30 @@
     <div class="links">
       <span class="website"><i class="website"></i><a href="https://worthyindiefilms.netlify.app/login">Demo</a></span>
       <span class="code"><i class="code"></i><a href="https://github.com/Christin-paige/myflix-client2">Code</a></span>
-      <span class="case-study"><i class="case-study"></i><a href="#">Case Study</a></span>
+      <span class="case-study"><i class="case-study"></i><a href="./casestudy.html">Case Study</a></span>
       </div>
   </footer>
 </article>
 <article class="card">
   <picture class="thumbnail">
-    <img class="category__01" src="./meet-app.png" alt="screenshot of pokedex website"/>
+    <img class="category__01" src="./meetapp.png" alt="screenshot of pokedex website"/>
   </picture>
   <div class="card-content">
     <p class="category category__01">React</p>
     <h2>Meet App</h2>
-    <p> The Pokedex app is a small application with HTML, CSS, and JavaScript that
-      loads data from an external API.  It enables the user to search
-      and see the stats of a particular Pokemon when clicked.</p>
+    <p> Meet is a serverless progressive web application (WPA) 
+      with React using a test driven development (TDD) technique. 
+      The application uses the Google calendar API to fetch 
+      upcoming events. Visualizations in the form of a pie chart and a scatter plot were added to
+    analyze the data with ease.</p>
+   <h3>Technologies Used</h3>
+    <ul>
+      <li>React</li>
+      <li>TDD</li>
+      <li>Google Calendar API</li>
+      <li>OAuth2 authentication flow</li>
+      <li>AWS Lambda</li>
+    </ul>
   </div>
   <footer>
     <div class="links">
@@ -174,41 +182,31 @@
 </article>
 </section>
 
-<section id="contact">
-  <h1>Contact Me!</h1>
-  
-  
-  Tel <a href="tel:727-771-3207">727 771 3207</a><br>
-  <a href ="mailto:christinpmartin@gmail.com">Email: christinpmartin@gmail.com</a><br>
-  <a href ="mailto:christinpmartin@gmail.com">Contact me</a>
-
-
-<div class="contact">
-<form action="_" method="post">
-  <label class ="standard-label" for="contact-email">E-mail: </label>
-  <input type="email" id="contact-email" required>
-
-  <label class="standard-label" for="contact-tel">Telephone: </label>
-  <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-
-  <label class="standard-label" for="contact-submit">Message: </label>
-  <textarea maxlength="240" required></textarea>
-
-  <input type="submit" id="contact-submit" value="Send message">
-</form>
-</div>
-</section>
-
 
 <!--Footer with links to social media profiles-->
-<footer class="page-footer">
-  <p>Find me on</p>
+<section id="contact-section">
+  <footer class="contact">
+    <div class="contact-container">
+    <h1 class="contact-title">Contact</h1>
+    <p>
+      Christin P Martin
+      <br>
+      Washington, DC
+    </p>
+    <p class="email">
+      <span>christinpmartin@gmail.com</span>
+    </p>
+    </div>
+
 <div class="social-media">
-  <img class="social" src="./github.svg" alt="github"/>
-  <img src="./twitter.svg" alt="twitter"/>
-  <img src="./linkedin.svg" alt="linkedIn"/>
+  <ul>
+     <li class="social-icons"><a href="https://github.com/Christin-paige" target="_blank"><img src="./github.svg" aria-hidden="true"></a></li>
+     <li class="social-icons"><a href="https://twitter.com/christinpmartin" target="_blank"><img src="./twitter.svg" aria-hidden="true"></a></li>
+     <li class="social-icons"><a href="https://www.linkedin.com/in/christin-martin-9991b5202/" target="_blank"><img src="./linkedin.svg" aria-hidden="true"></a></li>
+  </ul>
 </div>
 </footer>
+</section>
 
 <script src="js/tota11y.min.js"></script>
 </body>
