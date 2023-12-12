@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'serif';
     font-weight: 400;
     background-color: rgb(58, 61, 66);
     line-height: 1.5;
@@ -18,11 +18,17 @@ body {
   
     
 }
-.nav {
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-}
+.bg-2 { 
+    background-color: #95ccba; /* Teal*/
+    color: #ffffff;
+    padding: 50px;
+  
+  }
+  .bg-3 { 
+    background-color:rgb(58, 61, 66); /* White */
+   
+    padding: 50px;
+  }
 
 
 .home {
