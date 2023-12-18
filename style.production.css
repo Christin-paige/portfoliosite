@@ -15,14 +15,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    color:  #696969;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    background-color: black;
+    background-color: 	#dbc4b3;
     line-height: 1.5;
     background-image: url(./grayflower.svg);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
   
     
 }
@@ -44,26 +44,22 @@ html {
     display: flex;
     width: 100%;
     padding: 20px;
-    position: fixed;
+   
     margin: auto 0;
     z-index: 1;
-    background-color: black;
+    
+    
  
 }
 
-.page-header__item {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 200px;
-            flex: 0 1 200px;
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.page-header__item:last-child {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    text-align: right;
 
-}
+
 
 .logo {
    padding-top:10px;
@@ -72,46 +68,38 @@ html {
 }
 
 
-.navigation-list ul {
+
+
+
+
+
+.mb-4 {
+    border-radius: 50%;
+}
+
+.card-container {
+    background-color:#dbc4b3; 
+}
+/*unordered list at footer*/
+ul {
     list-style: none;
-    text-decoration: none; 
-    padding:0;
-    margin: 0;
-    align-items: right;
-   
-   
-
 }
-.navigation-list li {
-    display: inline-block;
-    margin-right: 100px;
-   
-    
-}
-.navigation-list a {
-    width: 100px;
-    display: block;
-    padding: 20;
-    text-decoration: none;
-   
-
-}
-
+/*
 .navigation-list__item:hover {
-    color:#06ddf0;
+    color:#696969;
 }
 
 .navigation-list__item1:hover{
-        color: rgb(242, 3, 206);
+        color: #696969;
              
 }
 .navigation-list__item2:hover{
-    color: #06ddf0;
+    color:#696969;
 }
 .navigation-list__item3:hover{
-    color:  rgb(240, 236, 5);
+    color: #696969;
 }
-#home,
+/*#home,
 #about,
 #contact,
 #projects {
@@ -121,7 +109,7 @@ html {
 }
 
 
-.intro {
+/*.intro {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -131,11 +119,11 @@ html {
    
 }
 
-.portrait {
-    width: 75%;
+/*.portrait {
+    width: 25%;
    border-radius: 50%;
     
-}
+}*/
 
 
 svg path {
@@ -160,7 +148,7 @@ ul {
 }
 
 /*about me multi-color heading*/
-
+/*
 .aboutme h1{
     font-size: 50px;
     font-weight: 600;
@@ -174,7 +162,7 @@ ul {
     width: 100%;
     height: 100px;
 }
-/*entire about me section*/
+/*entire about me section
 .aboutme {
     margin: 0 auto;
     color: white;
@@ -271,7 +259,7 @@ a {
 }
 
 
-/* start grid fallback */ 
+/* start grid fallback 
 
 
 
@@ -301,7 +289,7 @@ img {
   }
   
   .card {
-    /*height: 200px;*/
+    /*height: 200px;
     width: 300px;
     height: 600px;
     background:#787678a1;
@@ -312,14 +300,14 @@ img {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
     display: flex;
     /* -webkit-box-orient: vertical; */
-    /* -webkit-box-direction: normal; */
+    /* -webkit-box-direction: normal; 
    
     -ms-flex-direction: column;
     flex-direction: column;
    
     position: relative;
     color: #f9f9f9;
-  } /* li item */
+  } /* li item 
   
   .thumbnail img {
     fill: #c7c4c4;
@@ -399,7 +387,7 @@ img {
 
 
 
-/*media query section*/
+/*media query section
 
 
 @media screen and (min-width: 480px) {
