@@ -1,0 +1,214 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'serif';
+    font-weight: 400;
+    background-color: rgb(58, 61, 66);
+    line-height: 1.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  
+    
+}
+.bg-2 { 
+    background-color: #95ccba; /* Teal*/
+    color: #ffffff;
+    padding: 50px;
+  
+  }
+  .bg-3 { 
+    background-color:rgb(58, 61, 66); /* White */
+   
+    padding: 50px;
+  }
+
+
+.home {
+    display: flex;
+    justify-content: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    color: #ffdede;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#fff0cb
+   
+}
+h2, h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffdede;
+
+}
+.case-study {
+    padding-left: 100px;
+}
+
+
+
+
+.logo {
+  width: 50%;
+  padding: 50px;
+  box-sizing: border-box;
+  
+}
+
+
+
+
+
+.intro-content {
+    width: 50%;
+    padding-bottom: 100px;
+    padding-left: 175px;
+    
+}
+.intro {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.homeview{
+    border-width: 5px;
+    border-color: #ffdede;
+    border-style: double;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+
+.server-side-content {
+   display: flex;
+  padding: 50px;
+  
+}
+.server-side-paragraph {
+   
+    width: 50%;
+}
+  
+.server-image {
+    display: flex;
+  
+
+}
+
+.approach-heading {
+    width: 100%;
+    padding-left: 175px;
+   
+}
+
+.client-content {
+    padding-left: 200px;
+  
+   
+   
+}
+
+
+.postman {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+
+}
+
+.mongodb {
+    width: 100%;
+    padding-right: 50px;
+   
+}
+
+.client-images {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  
+}
+
+.signinview {
+  width: 75%;
+  border-width: 5px;
+  border-color: #ffdede;
+  border-style: double;
+
+    
+}
+
+.profileview {
+    width: 75%;
+    border-width: 5px;
+  border-color: #ffdede;
+  border-style: double;
+   
+}
+.movieview {
+    width: 75%;
+    border-width: 5px;
+    border-color: #ffdede;
+  border-style: double;
+   
+   
+}
+
+.challenges {
+ padding-left: 175px;
+}
+
+.duration {
+    padding-left: 175px;
+}
+
+.credits {
+    padding-left:175px;
+    padding-bottom: 100px;
+}
+
+.contact-container {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media {
+ display: flex;
+ justify-content: center;
+ padding-bottom: 50px;
+
+}
+.social-icons {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    transition: .5s;
+    color: #fff;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .logo, .intro-content, .homeview, .server-side-content, .approach-heading, .client-content,
+    .postman, .mongodb, .signinview, .client-images, .profileview, .movieview, .challenges,
+    .duration, .credits {
+        padding: 0 10px; /* Adjust padding as needed for smaller screens */
+    }
+}
