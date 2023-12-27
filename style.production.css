@@ -78,7 +78,13 @@ html {
 .mb-4 {
     border-radius: 50%;
 }
-
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  
+}
+.specialties {
+    padding-left: 50px;
+}
 
 /*unordered list at footer*/
 ul {
@@ -150,6 +156,7 @@ ul {
 .social-media {
     display: flex;
     justify-content: center;
+    opacity: 60%;
 }
 .contact-title {
     display: flex;
@@ -160,7 +167,10 @@ ul {
 .contact-info {
     display: flex;
     flex-direction: column;
+
     justify-content: center;
+
+   
 }
 /*about me multi-color heading*/
 /*

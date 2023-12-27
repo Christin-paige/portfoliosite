@@ -27,39 +27,29 @@
       <!-- Navbar brand -->
       <img class = "logo" src="./christin-martin-high-resolution-logo-transparent.png" width="300">
       
-      <div class="collapse navbar-collapse ml-auto navbar-primary" id="navbarExample01">
-        <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+      <div class="collapse navbar-collapse navbar-primary" id="navbarExample01">
+        <ul class="navbar-nav  mb-4 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href= "#home" role="menuitem">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about" rel="nofollow"
-              target="_blank">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#projects" target="_blank">Projects</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#intro">Contact</a>
+            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
           </li>
         </ul>
     </div>
+    <div class="social-media">
+      <ul class="social-media">
+        <li class="social-icons"><a class="btn btn-link btn-floating btn-lg text-dark m-1" style="color:#696969;" href="mailto:christinpmartin@gmail.com" target="_blank"><img src="./envelope.svg" width="30"></a></li>
+         <li class="social-icons"><a class="btn btn-link btn-floating btn-lg text-dark m-1"style="color:#696969;" href="https://github.com/Christin-paige" target="_blank"><img src="./github.svg" aria-hidden="true"></a></li>
+         <li class="social-icons"><a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/christinpmartin" target="_blank"><img src="./twitter.svg" aria-hidden="true"></a></li>
+         <li class="social-icons"><a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/in/christin-martin-9991b5202/" target="_blank"><img src="./linkedin.svg" aria-hidden="true"></a></li>
+      </ul>
+    </div>
     </div>
   </nav>
-<!--
-   <nav class="main-navigation" >
-      <img class="logo" src="./christin-martin-high-resolution-logo-transparent.png" width="300">
-      
-      <ul role="menubar" class="navigation-list text-center" >
-
-        <li role="presentation"><a href= "#home" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a></li>
-        <li role="presentation"><a href= "#about" role="menuitem" class="navigation-list__item1">About</a></li>
-        <li role="presentation"><a href="#cards" role="menuitem" class="navigation-list__item3">Projects</a></li>
-        <li role="presentation"><a href= "#contact-section" role="menuitem" class="navigation-list__item2">Contact</a></li>
-        
-      </ul>
-    </nav>
-  -->
 </header>
 
 
@@ -91,9 +81,9 @@
       <path d="M395.879 3.39201C400.743 3.39201 404.945 4.30934 408.487 6.144C412.071 7.936 414.801 10.5173 416.678 13.888C418.598 17.2587 419.559 21.2267 419.559 25.792C419.559 30.3573 418.598 34.3253 416.678 37.696C414.801 41.024 412.071 43.584 408.487 45.376C404.945 47.1253 400.743 48 395.879 48H381.991V3.39201H395.879ZM395.879 43.2C401.639 43.2 406.033 41.6853 409.062 38.656C412.092 35.584 413.607 31.296 413.607 25.792C413.607 20.2453 412.071 15.9147 408.999 12.8C405.969 9.68534 401.596 8.12801 395.879 8.12801H387.815V43.2H395.879Z" stroke="#FFFDFD" stroke-width="4" mask="url(#path-1-outside-1_5_24)"/>
       </svg>
 <div class="px-2 py-3 my-5 text-center">
-  <h1>Introducing</h1>
+  <h1 class="introduction" style="color: #696969;">Introducing...</h1>
   <img class="d-block mx-auto mb-4" src="./portrait.jpeg" alt="black and white photo of Christin" width="300" height="300">
-  <h1 class="display-5 fw-bold text-body-emphasis">Christin Martin</h1>
+  <h1 class="display-7" style="color: #696969">Christin Martin</h1>
   <div class="col-lg-6 mx-auto">
     <p>Hello, I’m Christin, a full-stack web developer from the Washington D.C. area.<br> I am passionate about 
       building and developing websites. My creativity and attention to detail lend themselves to the client side of development while 
@@ -104,25 +94,26 @@
   </div>
 </div>
 
-<h2>Specialties include...</h2>
+<h1 class="specialties">My Specialties Include...</h1>
   <div class="grid px-2 py-3 my-5 text-center">
-    <span class="badge bg-secondary">Front-End Web Development</span>
-    <span class="badge bg-secondary">HTML</span>
-    <span class="badge bg-secondary">CSS</span>
-    <span class="badge bg-secondary">Javascript</span>
-    <span class="badge bg-secondary">React</span>
-    <span class="badge bg-secondary">React Native</span>
+  <h4><span class="badge bg-secondary">Front-End Web Development</span> 
+  <span class="badge bg-secondary">HTML</span>
+  <span class="badge bg-secondary">CSS</span>
+  <span class="badge bg-secondary">Javascript</span>
+  <span class="badge bg-secondary">React</span>
+  <span class="badge bg-secondary">React Native</span>
     <span class="badge bg-secondary">Bootstrap</span>
     <span class="badge bg-secondary">Back-End Web Development</span>
     <span class="badge bg-secondary">JSON</span>
     <span class="badge bg-secondary">Node.js</span>
     <span class="badge bg-secondary">MongoDB</span>
     <span class="badge bg-secondary">GitHub</span>
-    <span class="badge bg-secondary">Serverless</span>
+    <span class="badge bg-secondary">Serverless</span></h4>
   </div>
  
 
-<section class="card-container">
+<section id="projects" class="card-container">
+  <h1 class="text-center">My Work</h1>
 
   <div class="container">
 
@@ -131,7 +122,7 @@
         <div class="card shadow-sm">
           <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./pokedex.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/>
           <div class="card-body">
-            <h1>Pokedex</h1>
+            <h2>Pokedex</h2>
             <p class> The Pokedex app is a small application with HTML, CSS, and JavaScript that
               loads data from an external API.  It enables the user to search
               and see the stats of a particular Pokemon when clicked.</p>
@@ -201,7 +192,7 @@
 
 Footer with links to social media profiles-->
 
-  <div class="container my-5">
+  <div id= "contact" class="container my-5">
 
     <footer class="text-center">
     <!-- Grid container -->
@@ -210,20 +201,18 @@ Footer with links to social media profiles-->
       <section class="mb-4">
   <div class="contact">
     <div class="contact-container text-center">
-    <h1 class="contact-title">Contact</h1>
-    <h3 class="contact-title">Christin P Martin</h3>
-    <ul class="contact-info">
-
-      <li class="house-icon"><img src="./house-heart.svg" aria-hidden="true">  Washington DC</li>
-      <li class="email-icon"><a class="btn btn-link btn-floating btn-lg text-dark m-1" href="christinpmartin@gmail" target="_blank"></a><img src="./envelope.svg" aria-hidden="true">   christinpmartin@gmail.com</li>
-     
-    </ul>
+    <h1 class="contact-title">Let's Chat</h1>
+    <p>Are you looking for a hard-working, passionate web developer?  Send me an email or
+      connect with me on the web 
+    </p>
+    
     </div>
     </div>
  
 
 <div class="social-media">
   <ul class="social-media">
+    <li class="social-icons"><a class="btn btn-link btn-floating btn-lg text-dark m-1" href="mailto:christinpmartin@gmail.com" target="_blank"><img src="./envelope.svg" width="30"></a></li>
      <li class="social-icons"><a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/Christin-paige" target="_blank"><img src="./github.svg" aria-hidden="true"></a></li>
      <li class="social-icons"><a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/christinpmartin" target="_blank"><img src="./twitter.svg" aria-hidden="true"></a></li>
      <li class="social-icons"><a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/in/christin-martin-9991b5202/" target="_blank"><img src="./linkedin.svg" aria-hidden="true"></a></li>
